@@ -1,10 +1,10 @@
-# clj-reduce+
+# clj-reduce-plus
 
-Clj-reduce+ can take more than two sequence as arg.
+Clj-reduce-plus can take more than two sequence as arg.
 
 ## Usage
 
-    (use 'hozumi.reduce+)
+    (use 'hozumi.reduce-plus)
 
     (reduce+ assoc {} [:a :b :c] [1 2 3]) ;take 2 sequence.
     ;=> {:c 3, :b 2, :a 1}
@@ -15,4 +15,4 @@ Clj-reduce+ can take more than two sequence as arg.
 ## Installation
 
 Leiningen
-    [org.clojars.hozumi/clj-reduce+ "1.0.0-SNAPSHOT"]
+    [org.clojars.hozumi/clj-reduce-plus "1.0.0-SNAPSHOT"]
